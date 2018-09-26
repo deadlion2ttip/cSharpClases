@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ConsoleApp1.Math;
 
 namespace ConsoleApp1
 {  
@@ -16,6 +17,8 @@ namespace ConsoleApp1
 
             Chris.Introduce();
             Chris.Threaten();
+
+            Console.WriteLine(Calculator.Add(1, 5));
         }
     }
 }

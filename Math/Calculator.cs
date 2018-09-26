@@ -8,5 +8,10 @@ namespace ConsoleApp1.Math
 {
     class Calculator
     {
+        static public int Add(int A, int B)
+        {
+            return A + B;
+        }
+
     }
 }
