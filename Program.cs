@@ -11,13 +11,9 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Person Chris = new Person();
-            Chris.FirstName = "Chris";
-            Chris.LastName = "Griffin";
+            
 
-            Chris.Introduce();
-            Chris.Threaten();
-
+            
             Console.WriteLine(Calculator.Add(1, 5));
         }
     }
